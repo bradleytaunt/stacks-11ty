@@ -1,0 +1,37 @@
+---
+layout: layouts/base-post.njk
+section: post
+---
+
+<h1>{{ title }}</h1>
+
+<div class="flex-grid">
+
+  <div class="flex-grid__item flex-grid__item--no-hover flex-grid__item--full-width">
+
+    {{ layoutContent | safe }}
+
+    <hr/>
+
+    <p>
+      <small>
+        <time datetime="{{ date | machineDate }}">Published: {{ date | readableDate }}</time>
+      </small>
+    </p>
+
+    {% if tags %}
+      <p>
+      {% for tag in tags %}
+        {%- if tag != "post" -%}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+        {%- endif -%}
+      {% endfor %}
+      </p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="flex-grid t-center">
+  <a class="flex-grid__item" href="/posts"><h2 class="home-title m-0">← Back to all posts</h2></a>
+</div>

@@ -1,0 +1,18 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+	{% include "components/head.njk" %}
+
+	<body>
+
+		<div class="flex-grid flex-grid--sb flex-break p-60 m-40 w-100">
+			{% include "components/nav.njk" %}
+		</div>
+
+		{{ layoutContent | safe }}
+
+		{% include "components/footer.njk" %}
+
+	</body>
+
+</html>

@@ -1,0 +1,18 @@
+<div class="flex-grid flex-grid--wrap">
+	{% for post in postslist | reverse %}
+		<a href="{{ post.url | url }}" {% if post.url == url %} data-current="current item"{% endif %} class="flex-grid__item">
+			<h2 class="home-title">
+				{% if post.data.title %}
+					{{ post.data.title }}
+				{% else %}
+					Untitled
+				{% endif %}
+			</h2>
+			{% if post.data.summary %}
+				<p class="home-summary">
+					{{ post.data.summary }}
+				</p>
+			{% endif %}
+		</a>
+	{% endfor %}
+</div>
