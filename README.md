@@ -1,6 +1,6 @@
 # Stacks 11ty Theme
 
-Open source <a href="11ty.io">11ty.io</a> theme with personality.
+Open source <a href="https://www.11ty.io/">11ty.io</a> theme with personality.
 
 ### Demo
 
