@@ -4,7 +4,7 @@ Open source <a href="11ty.io">11ty.io</a> theme with personality.
 
 ### Demo
 
-A live demo can be found here: <a href="http://stacks11ty.surge.sh/">stacks11ty.surge.sh</a>
+A live demo can be found here: <a href="https://stacks11ty.netlify.com/">stacks11ty.netlify.com</a>
 
 ### Setup
 
