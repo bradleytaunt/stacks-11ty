@@ -1,10 +1,21 @@
 {
-  "title": "Stacks 11ty Theme",
-  "url": "https://stacks11ty.netlify.com/",
-  "siteUrl": "https://stacks11ty.netlify.com/",
+  "title": "Blog - Steve Dunn",
+  "url": "https://blog.dunnhq.com.com/",
+  "description": "This blog was written by a tool.",
+  "feed": {
+    "subtitle": "Blog - Steve Dunn. This blog was written by a tool.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  },
   "author": {
-    "name": "Bradley Taunt",
-    "email": "bradleytaunt@gmail.com",
-    "github": "https://github.com/bradleytaunt"
+    "name": "Steve Dunn",
+    "email": "STEVE@DUNNHQ.COM.com",
+    "url": "https://blog.dunnhq.com",
+    "github": "https://github.com/bradleytaunt"    
   }
 }
