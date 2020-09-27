@@ -1,13 +1,13 @@
 ---
 title: 'Updated: Code Formatter Plugin for Windows Live Writer'
-date: '2009-05-15T22:11:00+00:00'
+date: 2009-05-15
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 42
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

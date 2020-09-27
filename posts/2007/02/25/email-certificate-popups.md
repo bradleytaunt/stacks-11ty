@@ -1,13 +1,13 @@
 ---
 title: Email certificate popups
-date: '2007-02-25T18:48:00+00:00'
+date: 2007-02-25
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 75
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

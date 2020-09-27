@@ -1,13 +1,13 @@
 ---
 title: Excluding Items From Code Coverage
-date: '2008-06-27T20:20:00+00:00'
+date: 2008-06-27
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 60
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []
@@ -22,15 +22,16 @@ blogger_internal:
 dsq_thread_id:
     - '6359433948'
 ---
-<div><span style="font-family: "Arial","sans-serif"; font-size: 10pt">There’s an attribute in nCover that can be applied to your code to exclude it when doing code coverage. This is handy for auto-generated types such as web services etc. </span>
 
-<span style="font-family: "Arial","sans-serif"; font-size: 10pt">The attribute is in the nCover assembly, but most people wouldn’t want to ship with their assemblies. Fortunately, you can define your own attribute. If you’re using TestDriven.NET, call it ‘CoverageExcludeAttribute’, if not, call it what you want.</span>
+There’s an attribute in nCover that can be applied to your code to exclude it when doing code coverage. This is handy for auto-generated types such as web services etc.
 
-<span style="font-family: "Arial","sans-serif"; font-size: 10pt">When using NCover, pass the name of the attribute in the */ea WhateverYouCalledTheAttribute* command line attribute.</span>
+The attribute is in the nCover assembly, but most people wouldn’t want to ship with their assemblies. Fortunately, you can define your own attribute. If you’re using TestDriven.NET, call it ‘CoverageExcludeAttribute’, if not, call it what you want.
 
-<span style="font-family: "Arial","sans-serif"; font-size: 10pt">Here’s the code, with comments. Remember, don’t put this in a namespace!</span>
+When using NCover, pass the name of the attribute in the */ea WhateverYouCalledTheAttribute* command line attribute.
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">```
+Here’s the code, with comments. Remember, don’t put this in a namespace!
+
+```
 /// <summary> 
 /// Use this attribute on types that do not need code coverage analysis. 
 /// Such types are auto-generated types, such as web services etc. 
@@ -44,5 +45,3 @@ dsq_thread_id:
 [CoverageExclude] 
 class CoverageExcludeAttribute : Attribute { } 
 ```
-
-</div></div>

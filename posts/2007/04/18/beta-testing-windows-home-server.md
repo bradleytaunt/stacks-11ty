@@ -1,13 +1,13 @@
 ---
 title: Beta Testing Windows Home Server
-date: '2007-04-18T21:15:00+00:00'
+date: 2007-04-18
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 72
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

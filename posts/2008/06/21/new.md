@@ -1,13 +1,13 @@
 ---
 title: New!
-date: '2008-06-21T19:58:00+00:00'
+date: 2008-06-21
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 61
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

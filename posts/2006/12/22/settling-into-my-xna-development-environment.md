@@ -1,13 +1,13 @@
 ---
 title: Settling into my XNA Development Environment
-date: '2006-12-22T12:21:00+00:00'
+date: 2006-12-22
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 80
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

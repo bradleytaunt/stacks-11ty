@@ -1,13 +1,13 @@
 ---
 title: New version of the Code Formatter Plug-in for Windows Live Writer.
-date: '2007-09-23T11:14:00+00:00'
+date: 2007-09-23
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 63
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

@@ -1,13 +1,13 @@
 ---
 title: If Agile is so good, why haven't we always done it?
-date: '2007-08-20T17:25:00+00:00'
+date: 2007-08-20
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 64
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

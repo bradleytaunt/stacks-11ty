@@ -1,13 +1,13 @@
 ---
 title: Are your UWP Win2D offscreen bitmaps dull…?
-date: '2018-01-11T12:38:20+00:00'
+date: 2018-01-11
 status: publish
 author: stevedunn
 excerpt: ''
 type: post
 id: 224
 thumbnail: /static/images/imported_from_wp/2018/01/featured.png
-category:
+tags:
     - .net
     - 'c#'
     - Win2D

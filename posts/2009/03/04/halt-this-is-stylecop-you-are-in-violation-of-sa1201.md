@@ -1,14 +1,13 @@
 ---
 title: Halt, this is StyleCop.  You are in violation of SA1201!
-date: '2009-03-04T17:19:00+00:00'
+date: 2009-03-04
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 49
-thumbnail: /static/images/imported_from_wp/2009/03/sshot-2_thumb-5B3-5D.png
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

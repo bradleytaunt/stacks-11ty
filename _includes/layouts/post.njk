@@ -3,6 +3,12 @@ layout: layouts/base-post.njk
 section: post
 ---
 
+    {% if thumbnail %}
+      <p>
+      <img src="{{thumbnail}}"/>
+      </p>
+    {% endif %}
+
 <h1>{{ title }}</h1>
 
 <div class="flex-grid">

@@ -1,13 +1,13 @@
 ---
 title: A fast way of converting C# enums to strings–and back again.
-date: '2011-08-17T22:45:00+00:00'
+date: 2011-08-17
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 32
-category:
+tags:
     - 'c#'
     - open-source
 tag: []

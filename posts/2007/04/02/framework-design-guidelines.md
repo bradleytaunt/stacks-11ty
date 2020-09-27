@@ -1,13 +1,13 @@
 ---
 title: Framework Design Guidelines
-date: '2007-04-02T15:17:00+00:00'
+date: 2007-04-02
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 73
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

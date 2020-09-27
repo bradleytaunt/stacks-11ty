@@ -1,13 +1,13 @@
 ---
 title: IDisposable alerts
-date: '2009-03-06T21:10:00+00:00'
+date: 2009-03-06
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 46
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []
@@ -32,28 +32,28 @@ There’s two bits to this
 
 The constructor:
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">```
+```
 public MyResourceHungryType( )
 {
   _stackTrace = new StackTrace( ) ;
 }
 ```
 
-</div>The finalizer:
+The finalizer:
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">```
+```
 ~MyResourceHungryType( )
 {
   Debug.WriteLine( _stackTrace.ToString( ) ) ;
 }
 ```
 
-</div>Then, if the finalizer is ever called, you’ll get a call stack printed up to the point where you created this type – something like:
+Then, if the finalizer is ever called, you’ll get a call stack printed up to the point where you created this type – something like:
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">```
+```
 at Namespace.MyResourceHungryType..ctor()
    at Namespace.MyType.DoSomething()
    at SomeNamespace.SomeMethod()
 ```
 
-</div>Handy.
+Handy.

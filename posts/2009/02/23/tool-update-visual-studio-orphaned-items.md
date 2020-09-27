@@ -1,13 +1,13 @@
 ---
 title: 'Tool update: Visual Studio Orphaned Items'
-date: '2009-02-23T12:21:00+00:00'
+date: 2009-02-23
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 54
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

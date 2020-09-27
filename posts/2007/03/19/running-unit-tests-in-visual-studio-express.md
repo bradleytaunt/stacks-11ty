@@ -1,13 +1,13 @@
 ---
 title: Running unit tests in Visual Studio Express
-date: '2007-03-19T21:43:00+00:00'
+date: 2007-03-19
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 74
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []
@@ -30,11 +30,17 @@ Today, I wanted to run and debug some unit tests I’d written in the [XNA](http
 
 So I changed the unit test project to be a console application and added this to the Main method.
 
-<div contenteditable="false" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">```
-<pre style="overflow: auto; background-color: white"><div><span style="color: #000000">    </span><span style="color: #0000ff">public</span><span style="color: #000000"> </span><span style="color: #0000ff">static</span><span style="color: #000000"> </span><span style="color: #0000ff">void</span><span style="color: #000000"> Main( )<br></br>    {<br></br>      AppDomain.CurrentDomain.ExecuteAssembly( <br></br>        </span><span style="color: #000000">@"</span><span style="color: #000000">C:Program FilesNUnit-Net-2.0 2.2.9binNUnit-console.exe</span><span style="color: #000000">"</span><span style="color: #000000">,<br></br>        </span><span style="color: #0000ff">null</span><span style="color: #000000">,<br></br>        </span><span style="color: #0000ff">new</span><span style="color: #000000"> </span><span style="color: #0000ff">string</span><span style="color: #000000">[ ] { Assembly.GetExecutingAssembly( ).Location } );<br></br>    }<br></br></span></div>
+```
+public static void Main( )
+{
+    AppDomain.CurrentDomain.ExecuteAssembly(
+        @"C:Program FilesNUnit-Net-2.0 2.2.9binNUnit-console.exe",
+        null,
+        new string[ ] { Assembly.GetExecutingAssembly( ).Location } );
+}
 ```
 
-</div>And it worked. Which was nice.
+And it worked. Which was nice.
 
 Update:
 =======

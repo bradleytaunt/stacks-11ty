@@ -1,6 +1,6 @@
 ---
 title: Pacman Dissected
-date: '2017-08-03T08:05:18+00:00'
+date: 2017-08-03
 status: publish
 
 author: stevedunn
@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 id: 181
 thumbnail: /static/images/imported_from_wp/2017/08/pacman_318-41063.jpg
-category:
+tags:
     - Uncategorised
 tag:
     - typescript

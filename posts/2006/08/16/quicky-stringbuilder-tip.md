@@ -1,13 +1,13 @@
 ---
 title: Quicky StringBuilder Tip
-date: '2006-08-16T19:53:00+00:00'
+date: 2006-08-16
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 107
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

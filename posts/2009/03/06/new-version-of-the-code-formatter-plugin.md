@@ -1,14 +1,13 @@
 ---
 title: New version of the Code Formatter Plugin
-date: '2009-03-06T08:21:00+00:00'
+date: 2009-03-06
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 47
-thumbnail: /static/images/imported_from_wp/2009/03/image_thumb-5B3-5D.png
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []
@@ -35,7 +34,7 @@ If you’re reading this in an aggregator, the following code snippets may look 
 
 Here’s some output from ActiPro as text:
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">```
+```
 <pre style="background-color:#FFFFFF;;overflow: auto;"><span style="color: #0000FF;">public</span><span style="color: #000000;"> </span><span style="color: #0000FF;">int</span><span style="color: #000000;"> TabWidth
 {
   </span><span style="color: #0000FF;">get</span><span style="color: #000000;">
@@ -49,13 +48,13 @@ Here’s some output from ActiPro as text:
 }</span>
 ```
 
-</div>Here it is again as a bitmap:
+Here it is again as a bitmap:
 
 [![image](/static/images/imported_from_wp/2009/03/image_thumb-5B3-5D.png "image")](/static/images/imported_from_wp/2009/03/image_thumb-5B3-5D.png)
 
 and here it is using SyntaxHighlighter 2.0
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">```
+```
 public int TabWidth
 {
   get

@@ -1,13 +1,13 @@
 ---
 title: Windows Live Writer - Additions to API
-date: '2006-08-22T22:01:00+00:00'
+date: 2006-08-22
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 102
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

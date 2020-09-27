@@ -1,13 +1,13 @@
 ---
 title: .NET Memory usage - A restaurant analogy
-date: '2006-09-06T20:46:00+00:00'
+date: 2006-09-06
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 95
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

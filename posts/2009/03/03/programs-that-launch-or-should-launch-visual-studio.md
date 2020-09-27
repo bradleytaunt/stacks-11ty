@@ -1,13 +1,13 @@
 ---
 title: Programs that launch (or should launch) Visual Studio
-date: '2009-03-03T12:34:00+00:00'
+date: 2009-03-03
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 51
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

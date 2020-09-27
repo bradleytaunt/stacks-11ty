@@ -1,13 +1,13 @@
 ---
 title: Handy use of extension method on a bool
-date: '2011-05-11T20:41:00+00:00'
+date: 2011-05-11
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 33
-category:
+tags:
     - .net
     - 'c#'
     - tips

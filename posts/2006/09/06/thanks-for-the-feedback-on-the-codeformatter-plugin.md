@@ -1,13 +1,13 @@
 ---
 title: Thanks for the feedback on the CodeFormatter plugin
-date: '2006-09-06T20:31:00+00:00'
+date: 2006-09-06
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 96
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

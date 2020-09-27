@@ -1,13 +1,13 @@
 ---
 title: Visual Studio Orphaned Project Items Finder
-date: '2006-10-21T22:32:00+00:00'
+date: 2006-10-21
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 89
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

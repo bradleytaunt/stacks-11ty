@@ -1,13 +1,13 @@
 ---
 title: Framework design lecture avaliable for download
-date: '2007-06-19T11:58:00+00:00'
+date: 2007-06-19
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 69
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

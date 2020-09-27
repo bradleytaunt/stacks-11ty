@@ -1,13 +1,13 @@
 ---
 title: ReSharper 4.5 Beta
-date: '2009-03-13T22:35:00+00:00'
+date: 2009-03-13
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 44
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

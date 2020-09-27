@@ -1,6 +1,6 @@
 ---
 title: ReSharper for Visual Studio 2010
-date: '2009-07-27T20:48:00+00:00'
+date: 2009-07-27
 status: publish
 
 author: stevedunn
@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 id: 39
 thumbnail: /static/images/imported_from_wp/2009/07/rs_thumb-5B2-5D.png
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

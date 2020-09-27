@@ -1,6 +1,6 @@
 ---
 title: 'Updated (again!): Code Formatter Plugin for Windows Live Writer'
-date: '2010-01-09T21:07:00+00:00'
+date: 2010-01-09
 status: publish
 
 author: stevedunn
@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 id: 37
 thumbnail: /static/images/imported_from_wp/2010/01/image_thumb-5B15-5D.png
-category:
+tags:
     - open-source
     - tool
 tag: []

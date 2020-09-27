@@ -1,13 +1,13 @@
 ---
 title: Timelapse video of writing a Win2D game for the Microsoft Store
-date: '2018-01-05T08:44:49+00:00'
+date: 2018-01-05
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 225
-category:
+tags:
     - 'c#'
     - open-source
 tag:

@@ -1,13 +1,13 @@
 ---
 title: Converting System.Drawing.Color to HTML color (and vice-versa)
-date: '2006-08-18T22:35:00+00:00'
+date: 2006-08-18
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 104
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

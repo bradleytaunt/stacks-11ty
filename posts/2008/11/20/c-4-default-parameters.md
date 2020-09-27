@@ -1,13 +1,13 @@
 ---
 title: C# 4 - Default Parameters
-date: '2008-11-20T13:04:00+00:00'
+date: 2008-11-20
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 57
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

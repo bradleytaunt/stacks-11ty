@@ -1,13 +1,13 @@
 ---
 title: I Hate ClearCase - Part I
-date: '2006-10-30T14:18:00+00:00'
+date: 2006-10-30
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 85
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

@@ -1,6 +1,6 @@
 ---
 title: Google Squared and sexy languages!
-date: '2009-06-04T07:24:00+00:00'
+date: 2009-06-04
 status: publish
 
 author: stevedunn
@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 id: 40
 thumbnail: /static/images/imported_from_wp/2009/06/mk_thumb-5B3-5D.jpg
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

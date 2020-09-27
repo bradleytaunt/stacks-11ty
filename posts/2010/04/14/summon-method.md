@@ -1,13 +1,13 @@
 ---
 title: Summon Method
-date: '2010-04-14T12:54:00+00:00'
+date: 2010-04-14
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 35
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

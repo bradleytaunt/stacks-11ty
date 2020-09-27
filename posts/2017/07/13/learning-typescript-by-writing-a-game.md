@@ -1,6 +1,6 @@
 ---
 title: Learning TypeScript by Writing a Game
-date: '2017-07-13T15:10:07+00:00'
+date: 2017-07-13
 status: publish
 
 author: stevedunn
@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 id: 171
 thumbnail: /static/images/imported_from_wp/2017/07/pic6.png
-category:
+tags:
     - Uncategorised
 tag:
     - canvas

@@ -1,13 +1,13 @@
 ---
 title: Resharper 2.0.1 RC2 is now available.
-date: '2006-08-22T22:19:00+00:00'
+date: 2006-08-22
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 99
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

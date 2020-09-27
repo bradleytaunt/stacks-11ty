@@ -1,13 +1,13 @@
 ---
 title: Quicker loading of the Visual Studio .NET IDE
-date: '2006-08-16T19:51:00+00:00'
+date: 2006-08-16
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 108
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

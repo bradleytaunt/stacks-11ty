@@ -1,13 +1,13 @@
 ---
 title: StyleCop
-date: '2009-02-21T14:44:00+00:00'
+date: 2009-02-21
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 55
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

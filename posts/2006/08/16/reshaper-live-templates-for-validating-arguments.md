@@ -1,13 +1,13 @@
 ---
 title: Reshaper Live Templates for validating arguments
-date: '2006-08-16T20:15:00+00:00'
+date: 2006-08-16
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 105
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

@@ -1,13 +1,13 @@
 ---
-title: "Getting 'code://' hyperlinks into FlexWiki"
-date: '2007-07-04T18:02:00+00:00'
+title: "Getting code hyperlinks into FlexWiki"
+date: 2007-07-04
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 67
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []
@@ -30,13 +30,13 @@ By default, FlexWiki does not handle all protocol handlers. To get it to handle 
 
 Change lines **1706** and **1707** – adding the ‘**code|**‘ segment next to the *https?|* text:
 
-<div contenteditable="false" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">```
-<pre style="background-color:White;"><div><span style="color: #0000FF; ">static</span><span style="color: #000000; "> </span><span style="color: #0000FF; ">string</span><span style="color: #000000; "> urlPattern </span><span style="color: #000000; ">=</span><span style="color: #000000; "> 
-  </span><span style="color: #000000; ">@"</span><span style="color: #000000; ">((https?|code|ftp|gopher...</span><span style="color: #000000; ">"</span><span style="color: #000000; "> ) ;
+```
+static string urlPattern = 
+  @"((https?|code|ftp|gopher..." ) ;
 
-</span><span style="color: #0000FF; ">static</span><span style="color: #000000; "> </span><span style="color: #0000FF; ">string</span><span style="color: #000000; "> urlPatternInBrackets </span><span style="color: #000000; ">=</span><span style="color: #000000; "> 
-  </span><span style="color: #000000; ">@"</span><span style="color: #000000; ">((https?|code|ftp|gopher...</span><span style="color: #000000; ">"</span><span style="color: #000000; "> ) ;
-</span></div>
+static string urlPatternInBrackets = 
+  @"((https?|code|ftp|gopher..." ) ;
+</div>
 ```
 
-</div>I must say, it’s very handy for your team to be able to navigate directly to code from a Wiki entry.
+I must say, it’s very handy for your team to be able to navigate directly to code from a Wiki entry.

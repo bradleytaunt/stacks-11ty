@@ -1,13 +1,13 @@
 ---
 title: Object Oriented vs Test Oriented
-date: '2007-05-17T15:25:00+00:00'
+date: 2007-05-17
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 70
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

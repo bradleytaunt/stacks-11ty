@@ -1,13 +1,13 @@
 ---
 title: FAJAX - Fake AJAX!
-date: '2006-11-30T12:09:00+00:00'
+date: 2006-11-30
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 83
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

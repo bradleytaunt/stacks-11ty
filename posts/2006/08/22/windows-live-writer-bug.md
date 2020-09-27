@@ -1,13 +1,13 @@
 ---
 title: Windows Live Writer - Bug
-date: '2006-08-22T22:07:00+00:00'
+date: 2006-08-22
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 101
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

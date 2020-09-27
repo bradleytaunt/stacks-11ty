@@ -1,13 +1,13 @@
 ---
 title: Visual Studio Build Tip
-date: '2006-10-18T08:18:00+00:00'
+date: 2006-10-18
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 92
-category:
+tags:
     - tips
     - 'visual studio'
 tag: []

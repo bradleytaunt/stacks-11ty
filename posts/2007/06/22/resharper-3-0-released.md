@@ -1,13 +1,13 @@
 ---
 title: ReSharper 3.0 released
-date: '2007-06-22T10:03:00+00:00'
+date: 2007-06-22
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 68
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

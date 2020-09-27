@@ -1,13 +1,13 @@
 ---
 title: Code Formatter Plugin now on Codeplex
-date: '2006-08-23T22:34:00+00:00'
+date: 2006-08-23
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 98
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

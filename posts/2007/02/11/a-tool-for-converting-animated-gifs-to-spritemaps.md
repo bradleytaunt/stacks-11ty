@@ -1,13 +1,13 @@
 ---
 title: A tool for converting animated GIFS to spritemaps
-date: '2007-02-11T19:29:00+00:00'
+date: 2007-02-11
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 76
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

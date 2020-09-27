@@ -1,13 +1,13 @@
 ---
 title: Challenging Conventions with Test First Development
-date: '2007-07-19T11:13:00+00:00'
+date: 2007-07-19
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 65
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

@@ -1,6 +1,6 @@
 ---
 title: Readonly parameters in C# - a step closer to immutability
-date: '2017-12-15T22:14:00+00:00'
+date: 2017-12-15
 status: publish
 
 author: stevedunn
@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 id: 210
 thumbnail: /static/images/imported_from_wp/2017/12/notouch.jpg
-category:
+tags:
     - .net
     - 'c#'
     - immutabillity

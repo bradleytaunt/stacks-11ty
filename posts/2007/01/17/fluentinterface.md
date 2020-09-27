@@ -1,13 +1,13 @@
 ---
 title: FluentInterface
-date: '2007-01-17T14:03:00+00:00'
+date: 2007-01-17
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 79
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []
@@ -28,14 +28,14 @@ Martin Fowler describes this as an [ExpressionBuilder ](http://www.martinfowler.
 
 More formal terms are described in his post, for instance, a [FluentInterface](http://www.martinfowler.com/bliki/FluentInterface.html) which allows code like this:
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">```
+```
 customer.newOrder() 
 	.with(6, "TAL") 
 	.with(5, "HPK").skippable() 
 	.with(3, "LGV").priorityRush();
 ```
 
-</div> I personally like this style but agree that if every object had these strange looking methods it would certainly pollute an API.
+I personally like this style but agree that if every object had these strange looking methods it would certainly pollute an API.
 
 Another formal term describing how not to pollute an API is [CommandQuerySeparation](http://www.martinfowler.com/bliki/CommandQuerySeparation.html). Basically, this means that a method that changes the observable state of an object shouldn’t have a return value.
 

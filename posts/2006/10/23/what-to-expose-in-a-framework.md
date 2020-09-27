@@ -1,13 +1,13 @@
 ---
 title: What to expose in a framework
-date: '2006-10-23T16:27:00+00:00'
+date: 2006-10-23
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 87
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

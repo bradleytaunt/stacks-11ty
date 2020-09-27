@@ -1,13 +1,13 @@
 ---
 title: Displaying values in the Visual Studio Debugger
-date: '2008-10-20T13:51:00+00:00'
+date: 2008-10-20
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 59
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

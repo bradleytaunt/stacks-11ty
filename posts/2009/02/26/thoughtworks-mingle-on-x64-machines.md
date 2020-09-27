@@ -1,13 +1,13 @@
 ---
 title: ThoughtWork’s Mingle on X64 machines
-date: '2009-02-26T11:20:00+00:00'
+date: 2009-02-26
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 52
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

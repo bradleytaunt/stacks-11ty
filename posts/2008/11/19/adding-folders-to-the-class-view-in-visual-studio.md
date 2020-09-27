@@ -1,13 +1,13 @@
 ---
 title: Adding folders to the Class View in Visual Studio
-date: '2008-11-19T12:16:00+00:00'
+date: 2008-11-19
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 58
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

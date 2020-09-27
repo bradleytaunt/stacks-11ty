@@ -1,6 +1,6 @@
 ---
 title: Update to the Code Formatter Plugin
-date: '2009-03-12T20:44:00+00:00'
+date: 2009-03-12
 status: publish
 
 author: stevedunn
@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 id: 45
 thumbnail: /static/images/imported_from_wp/2009/03/image_thumb-5B2-5D.png
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

@@ -1,6 +1,6 @@
 ---
 title: 'New tool: TreeTrim'
-date: '2009-04-13T12:45:00+00:00'
+date: 2009-04-13
 status: publish
 
 author: stevedunn
@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 id: 43
 thumbnail: /static/images/imported_from_wp/2009/04/hammer-5B5-5D.png
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

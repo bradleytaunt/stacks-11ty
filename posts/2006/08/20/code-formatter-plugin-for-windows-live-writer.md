@@ -1,13 +1,13 @@
 ---
 title: Code Formatter Plugin for Windows Live Writer
-date: '2006-08-20T23:01:00+00:00'
+date: 2006-08-20
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 103
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []
@@ -39,17 +39,21 @@ Below are some sample of code used with the plugin.
 
 **Here’s some C# code:**
 
-<div contenteditable="false" style="PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px">```
-<pre style="BACKGROUND-COLOR: white; WORD-WRAP: break-word"><span style="color:#000000;"></span><span style="color:#0000ff;">public</span><span style="color:#000000;"> </span><span style="color:#0000ff;">int</span><span style="color:#000000;"> TabWidth<br></br><br></br>{<br></br><br></br></span><span style="color:#0000ff;">get</span><span style="color:#000000;"><br></br><br></br>{<br></br><br></br></span><span style="color:#0000ff;">return</span><span style="color:#000000;"> _content.Properties.GetInt( </span><span style="color:#000000;">@"</span><span style="color:#000000;">TabWidth</span><span style="color:#000000;">"</span><span style="color:#000000;">, </span><span style="color:#000000;">4</span><span style="color:#000000;"> );<br></br><br></br>}<br></br><br></br></span><span style="color:#0000ff;">set</span><span style="color:#000000;"><br></br><br></br>{<br></br><br></br>_content.Properties.SetInt( </span><span style="color:#000000;">@"</span><span style="color:#000000;">TabWidth</span><span style="color:#000000;">"</span><span style="color:#000000;">, value );<br></br><br></br>}<br></br><br></br>}<br></br><br></br></span><br></br>
-```
+<div contenteditable="false" style="PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px">
+<pre style="BACKGROUND-COLOR: white; WORD-WRAP: break-word"><span style="color:#000000;"></span><span style="color:#0000ff;">public</span><span style="color:#000000;"> </span><span style="color:#0000ff;">int</span><span style="color:#000000;"> TabWidth<br><br><br><br>{<br><br><br><br></span><span style="color:#0000ff;">get</span><span style="color:#000000;"><br><br><br><br>{<br><br><br><br></span><span style="color:#0000ff;">return</span><span style="color:#000000;"> _content.Properties.GetInt( </span><span style="color:#000000;">@"</span><span style="color:#000000;">TabWidth</span><span style="color:#000000;">"</span><span style="color:#000000;">, </span><span style="color:#000000;">4</span><span style="color:#000000;"> );<br><br><br><br>}<br><br><br><br></span><span style="color:#0000ff;">set</span><span style="color:#000000;"><br><br><br><br>{<br><br><br><br>_content.Properties.SetInt( </span><span style="color:#000000;">@"</span><span style="color:#000000;">TabWidth</span><span style="color:#000000;">"</span><span style="color:#000000;">, value );<br><br><br><br>}<br><br><br><br>}<br><br><br><br></span><br><br>
+</pre>
 
-</div>**and some XML markup…**
+</div>
 
-<div contenteditable="false" style="PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px">```
-<pre style="BACKGROUND-COLOR: white"><span style="color:#000000;"></span><span style="color:#0000ff;"><</span><span style="color:#800000;">Triggers</span><span style="color:#0000ff;">></span><span style="color:#000000;"><br></br><br></br></span><span style="color:#0000ff;"><</span><span style="color:#800000;">KeyPressTrigger </span><span style="color:#ff0000;">Key</span><span style="color:#0000ff;">="PropertyListTrigger"</span><span style="color:#ff0000;"> Character</span><span style="color:#0000ff;">=" "</span><span style="color:#0000ff;">></span><span style="color:#000000;"><br></br><br></br></span><span style="color:#0000ff;"><</span><span style="color:#800000;">KeyPressTriggerValidStates</span><span style="color:#0000ff;">></span><span style="color:#000000;"><br></br><br></br></span><span style="color:#0000ff;"><</span><span style="color:#800000;">KeyPressTriggerValidState </span><span style="color:#ff0000;">State</span><span style="color:#0000ff;">="PropertyState"</span><span style="color:#ff0000;"> </span><span style="color:#0000ff;">/></span><span style="color:#000000;"><br></br><br></br></span><span style="color:#0000ff;"></</span><span style="color:#800000;">KeyPressTriggerValidStates</span><span style="color:#0000ff;">></span><span style="color:#000000;"><br></br><br></br></span><span style="color:#0000ff;"></</span><span style="color:#800000;">KeyPressTrigger</span><span style="color:#0000ff;">></span><span style="color:#000000;"><br></br><br></br></span><span style="color:#0000ff;"><</span><span style="color:#800000;">KeyPressTrigger </span><span style="color:#ff0000;">Key</span><span style="color:#0000ff;">="ValueListTrigger"</span><span style="color:#ff0000;"> Character</span><span style="color:#0000ff;">=" "</span><span style="color:#0000ff;">></span><span style="color:#000000;"><br></br><br></br></span><span style="color:#0000ff;"><</span><span style="color:#800000;">KeyPressTriggerValidStates</span><span style="color:#0000ff;">></span><span style="color:#000000;"><br></br><br></br></span><span style="color:#0000ff;"><</span><span style="color:#800000;">KeyPressTriggerValidState </span><span style="color:#ff0000;">State</span><span style="color:#0000ff;">="ValueState"</span><span style="color:#ff0000;"> </span><span style="color:#0000ff;">/></span><span style="color:#000000;"><br></br><br></br></span><span style="color:#0000ff;"></</span><span style="color:#800000;">KeyPressTriggerValidStates</span><span style="color:#0000ff;">></span><span style="color:#000000;"><br></br><br></br></span><span style="color:#0000ff;"></</span><span style="color:#800000;">KeyPressTrigger</span><span style="color:#0000ff;">></span><span style="color:#000000;"><br></br><br></br></span><span style="color:#0000ff;"></</span><span style="color:#800000;">Triggers</span><span style="color:#0000ff;">></span><span style="color:#000000;"><br></br><br></br></span><br></br>
-```
+**and some XML markup…**
 
-</div>I’ve made available the [source](http://files.dunnhq.com/CodeFormatterPluginSource.zip) and the [binaries](http://files.dunnhq.com/CodeFormatterPluginBinaries.zip) for this plugin.
+<div contenteditable="false" style="PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px">
+<pre style="BACKGROUND-COLOR: white; WORD-WRAP: break-word"><span style="color:#000000;"></span><span style="color:#0000ff;">public</span><span style="color:#000000;"> </span><span style="color:#0000ff;">int</span><span style="color:#000000;"> TabWidth<br><br><br><br>{<br><br><br><br></span><span style="color:#0000ff;">get</span><span style="color:#000000;"><br><br><br><br>{<br><br><br><br></span><span style="color:#0000ff;">return</span><span style="color:#000000;"> _content.Properties.GetInt( </span><span style="color:#000000;">@"</span><span style="color:#000000;">TabWidth</span><span style="color:#000000;">"</span><span style="color:#000000;">, </span><span style="color:#000000;">4</span><span style="color:#000000;"> );<br><br><br><br>}<br><br><br><br></span><span style="color:#0000ff;">set</span><span style="color:#000000;"><br><br><br><br>{<br><br><br><br>_content.Properties.SetInt( </span><span style="color:#000000;">@"</span><span style="color:#000000;">TabWidth</span><span style="color:#000000;">"</span><span style="color:#000000;">, value );<br><br><br><br>}<br><br><br><br>}<br><br><br><br></span><br><br>
+</pre>
+
+</div>
+
+I’ve made available the [source](http://files.dunnhq.com/CodeFormatterPluginSource.zip) and the [binaries](http://files.dunnhq.com/CodeFormatterPluginBinaries.zip) for this plugin.
 
 To use it, extract the binaries to Windows Live WriterPlugins and run WLW. The source is in C# 2.0 and comes with a Visual Studio 2005 solution.
 

@@ -1,13 +1,13 @@
 ---
 title: Handy .NET Cheat Sheets
-date: '2007-07-05T11:15:00+00:00'
+date: 2007-07-05
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 66
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

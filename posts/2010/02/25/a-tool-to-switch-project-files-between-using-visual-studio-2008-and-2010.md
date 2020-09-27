@@ -1,6 +1,6 @@
 ---
 title: A tool to switch project files between using Visual Studio 2008 and 2010
-date: '2010-02-25T22:02:00+00:00'
+date: 2010-02-25
 status: publish
 
 author: stevedunn
@@ -8,7 +8,7 @@ excerpt: ''
 type: post
 id: 36
 thumbnail: /static/images/imported_from_wp/2010/02/toolbox_thumb6.jpg
-category:
+tags:
     - tool
     - 'visual studio'
 tag: []

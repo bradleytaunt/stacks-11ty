@@ -1,13 +1,13 @@
 ---
 title: In the name of science
-date: '2006-11-30T13:10:00+00:00'
+date: 2006-11-30
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 82
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

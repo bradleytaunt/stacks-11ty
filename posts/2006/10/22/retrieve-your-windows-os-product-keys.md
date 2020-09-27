@@ -1,13 +1,13 @@
 ---
 title: Retrieve your Windows OS Product Keys
-date: '2006-10-22T09:50:00+00:00'
+date: 2006-10-22
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 88
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

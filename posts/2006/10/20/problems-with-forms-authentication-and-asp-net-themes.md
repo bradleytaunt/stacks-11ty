@@ -1,13 +1,13 @@
 ---
 title: Problems with Forms Authentication and ASP.NET Themes
-date: '2006-10-20T19:58:00+00:00'
+date: 2006-10-20
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 90
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []
@@ -28,35 +28,34 @@ It’s sometimes the strangest (and seemingly irrelevant) combinations of techno
 
 It turns out that the URLs specified in the authentication section in web.config are used for ALL resources. So, in my case, the page was trying to load a .css file but ASP.NET was redirecting the request to default.aspx, which of course, is not a style-sheet and has a different MIME type. Here’s the section of my web.config file:
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">```
-<pre style="background-color:#FFFFFF;;overflow: auto;"><span style="color: #0000FF;"><</span><span style="color: #800000;">authentication </span><span style="color: #FF0000;">mode</span><span style="color: #0000FF;">="Forms"</span><span style="color: #0000FF;">></span><span style="color: #000000;">
-      </span><span style="color: #0000FF;"><</span><span style="color: #800000;">forms  </span><span style="color: #FF0000;">loginUrl</span><span style="color: #0000FF;">="Default.aspx"</span><span style="color: #FF0000;">
-        defaultUrl</span><span style="color: #0000FF;">="Default.aspx"</span><span style="color: #FF0000;">
-        protection</span><span style="color: #0000FF;">="All"</span><span style="color: #FF0000;">
-        timeout</span><span style="color: #0000FF;">="30"</span><span style="color: #FF0000;">
-        path</span><span style="color: #0000FF;">="/"</span><span style="color: #FF0000;">
-        requireSSL</span><span style="color: #0000FF;">="false"</span><span style="color: #FF0000;">
-        slidingExpiration</span><span style="color: #0000FF;">="true"</span><span style="color: #FF0000;">
-        cookieless</span><span style="color: #0000FF;">="UseDeviceProfile"</span><span style="color: #FF0000;">
-        domain</span><span style="color: #0000FF;">=""</span><span style="color: #FF0000;">
-        enableCrossAppRedirects</span><span style="color: #0000FF;">="false"</span><span style="color: #0000FF;">/></span><span style="color: #000000;">
-    </span><span style="color: #0000FF;"></</span><span style="color: #800000;">authentication</span><span style="color: #0000FF;">></span>
+```
+<authentication mode="Forms">
+      <forms  loginUrl="Default.aspx"
+        defaultUrl="Default.aspx"
+        protection="All"
+        timeout="30"
+        path="/"
+        requireSSL="false"
+        slidingExpiration="true"
+        cookieless="UseDeviceProfile"
+        domain=""
+        enableCrossAppRedirects="false"/>
+    </authentication>
 ```
 
-</div>To fix this, I allow unauthenticated access to the resources, which was straight-forward. I added the following to the web.config file:
+To fix this, I allow unauthenticated access to the resources, which was straight-forward. I added the following to the web.config file:
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">```
-<pre style="background-color:#FFFFFF;;overflow: auto;"><span style="color: #000000;"> </span><span style="color: #0000FF;"><</span><span style="color: #800000;">location </span><span style="color: #FF0000;">path</span><span style="color: #0000FF;">="App_Themes"</span><span style="color: #0000FF;">></span><span style="color: #000000;">
-    </span><span style="color: #0000FF;"><</span><span style="color: #800000;">system.web</span><span style="color: #0000FF;">></span><span style="color: #000000;">
-      </span><span style="color: #0000FF;"><</span><span style="color: #800000;">authorization</span><span style="color: #0000FF;">></span><span style="color: #000000;">
-        </span><span style="color: #0000FF;"><</span><span style="color: #800000;">allow </span><span style="color: #FF0000;">users</span><span style="color: #0000FF;">="*"</span><span style="color: #0000FF;">/></span><span style="color: #000000;">
-      </span><span style="color: #0000FF;"></</span><span style="color: #800000;">authorization</span><span style="color: #0000FF;">></span><span style="color: #000000;">
-    </span><span style="color: #0000FF;"></</span><span style="color: #800000;">system.web</span><span style="color: #0000FF;">></span><span style="color: #000000;">
-  </span><span style="color: #0000FF;"></</span><span style="color: #800000;">location</span><span style="color: #0000FF;">></span><span style="color: #000000;">
-</span>
+```
+<pre style="background-color:#FFFFFF;;overflow: auto;"> <location path="App_Themes">
+    <system.web>
+      <authorization>
+        <allow users="*"/>
+      </authorization>
+    </system.web>
+  </location>
 ```
 
-</div>The tricky part in finding this was that the page’s HTML looked fine, there were no errors, and saving the resulting HTML to a file and viewing it produced the right results.
+The tricky part in finding this was that the page’s HTML looked fine, there were no errors, and saving the resulting HTML to a file and viewing it produced the right results.
 
 Firefox’s JavaScript Console proved incredibly helpful in finding the problem:
 

@@ -1,13 +1,13 @@
 ---
 title: Problems adding an XBox 360 Media Center Extender
-date: '2009-02-24T22:53:00+00:00'
+date: 2009-02-24
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 53
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

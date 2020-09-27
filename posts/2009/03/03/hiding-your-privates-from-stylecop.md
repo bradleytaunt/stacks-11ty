@@ -1,14 +1,13 @@
 ---
 title: Hiding your privates from StyleCop
-date: '2009-03-03T12:55:00+00:00'
+date: 2009-03-03
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 50
-thumbnail: /static/images/imported_from_wp/2009/03/sshot-1_thumb-5B2-5D.png
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

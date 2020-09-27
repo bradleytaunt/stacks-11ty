@@ -1,13 +1,13 @@
 ---
 title: BackgroundWorker - automating this handy class
-date: '2006-10-19T07:39:00+00:00'
+date: 2006-10-19
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 91
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

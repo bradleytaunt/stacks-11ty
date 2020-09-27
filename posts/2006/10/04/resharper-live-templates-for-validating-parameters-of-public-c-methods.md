@@ -1,13 +1,13 @@
 ---
 title: ReSharper Live Templates for validating parameters of public C# methods.
-date: '2006-10-04T07:21:00+00:00'
+date: 2006-10-04
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 93
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

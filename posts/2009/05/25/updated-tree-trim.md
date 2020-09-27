@@ -1,13 +1,13 @@
 ---
 title: 'Updated: Tree Trim'
-date: '2009-05-25T13:45:00+00:00'
+date: 2009-05-25
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 41
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []

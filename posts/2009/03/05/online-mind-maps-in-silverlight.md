@@ -1,14 +1,13 @@
 ---
 title: Online mind maps in Silverlight
-date: '2009-03-05T08:16:00+00:00'
+date: 2009-03-05
 status: publish
 
 author: stevedunn
 excerpt: ''
 type: post
 id: 48
-thumbnail: /static/images/imported_from_wp/2009/03/image_thumb-5B3-5D-1.png
-category:
+tags:
     - Uncategorised
 tag: []
 post_format: []
