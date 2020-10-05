@@ -41,24 +41,24 @@ Most of the changes in the new version are under-the-hood. The biggest change ha
 
 The main reason for rewriting the tool was that I wanted to add more features to it but found that it wasn’t easy. It wasn’t easy because it was originally written to just handle the basics needed for creating and editing levels.
 
-The features that I wanted to add were for the next version of [my game](http://marketplace.xbox.com/en-US/Product/Crazy-Balloon-Lite/66acd000-77fe-1000-9115-d80258550914) ([video here](http://www.youtube.com/watch?v=-H3099NgokM)). I wanted to include lighting and shadows and I wanted to design these on the canvas.
+The features that I wanted to add were for the next version of [my game](http://marketplace.xbox.com/en-US/Product/Crazy-Balloon-Lite/66acd000-77fe-1000-9115-d80258550914) ([video here](https://www.youtube.com/watch?v=-H3099NgokM)). I wanted to include lighting and shadows and I wanted to design these on the canvas.
 
 Instead of shoe-horning my changes into the original Gleed 2D source, I decided it’d be best to rewrite it and change it to a plug-in based tool.
 
 So, now everything is a plug-in. The basic shapes (rectangle, circle, path) and textures are now plug-ins. Lighting (lights and shadows) is now a plug-in. There’s also a plug-in for simple ‘behaviour’.
 
 Here’s a quick video showing how to use the basic shapes and textures:
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px"><div><object height="252" width="448"><param name="movie" value="http://www.youtube.com/v/9UitcINDDjc?hl=en&hd=1"></param><embed height="252" src="http://www.youtube.com/v/9UitcINDDjc?hl=en&hd=1" type="application/x-shockwave-flash" width="448"></embed></object></div><div style="width:448px;clear:both;font-size:.8em">Basic shapes and textures</div></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px"><div><object height="252" width="448"><param name="movie" value="https://www.youtube.com/v/9UitcINDDjc?hl=en&hd=1"></param><embed height="252" src="https://www.youtube.com/v/9UitcINDDjc?hl=en&hd=1" type="application/x-shockwave-flash" width="448"></embed></object></div><div style="width:448px;clear:both;font-size:.8em">Basic shapes and textures</div></div>
 
 </br>
 Here’s a short video showing lighting:
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px"><div><object height="252" width="448"><param name="movie" value="http://www.youtube.com/v/2a4shMgRQrk?hl=en&hd=1"></param><embed height="252" src="http://www.youtube.com/v/2a4shMgRQrk?hl=en&hd=1" type="application/x-shockwave-flash" width="448"></embed></object></div><div style="width:448px;clear:both;font-size:.8em">Lights and shadows</div></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px"><div><object height="252" width="448"><param name="movie" value="https://www.youtube.com/v/2a4shMgRQrk?hl=en&hd=1"></param><embed height="252" src="https://www.youtube.com/v/2a4shMgRQrk?hl=en&hd=1" type="application/x-shockwave-flash" width="448"></embed></object></div><div style="width:448px;clear:both;font-size:.8em">Lights and shadows</div></div>
 
 </br>
 and lastly, here’s a short video showing simple behaviours:
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px"><div><object height="252" width="448"><param name="movie" value="http://www.youtube.com/v/rFReB6OzYT0?hl=en&hd=1"></param><embed height="252" src="http://www.youtube.com/v/rFReB6OzYT0?hl=en&hd=1" type="application/x-shockwave-flash" width="448"></embed></object></div><div style="width:448px;clear:both;font-size:.8em">Simple behaviours</div></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px"><div><object height="252" width="448"><param name="movie" value="https://www.youtube.com/v/rFReB6OzYT0?hl=en&hd=1"></param><embed height="252" src="https://www.youtube.com/v/rFReB6OzYT0?hl=en&hd=1" type="application/x-shockwave-flash" width="448"></embed></object></div><div style="width:448px;clear:both;font-size:.8em">Simple behaviours</div></div>
 </br>
 
 The tool is still currently a bit rough. There’s various [bugs](https://github.com/SteveDunn/Gleed2D/issues) that need to be fixed, but none of them stop the tool from doing what it was designed to do. The project is now quick big, so I’m hoping that the community will jump in and add/fix stuff. I’d like to see plug-ins for physics and particle systems.
