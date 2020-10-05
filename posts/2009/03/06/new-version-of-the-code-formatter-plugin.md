@@ -34,7 +34,7 @@ If you’re reading this in an aggregator, the following code snippets may look 
 
 Here’s some output from ActiPro as text:
 
-```
+<span>
 <pre style="background-color:#FFFFFF;;overflow: auto;"><span style="color: #0000FF;">public</span><span style="color: #000000;"> </span><span style="color: #0000FF;">int</span><span style="color: #000000;"> TabWidth
 {
   </span><span style="color: #0000FF;">get</span><span style="color: #000000;">
@@ -45,8 +45,8 @@ Here’s some output from ActiPro as text:
   {
       _content.SetInt(</span><span style="color: #800000;">@"</span><span style="color: #800000;">TabWidth</span><span style="color: #800000;">"</span><span style="color: #000000;">, value);
   }
-}</span>
-```
+}
+</span>
 
 Here it is again as a bitmap:
 
@@ -68,4 +68,4 @@ public int TabWidth
 }
 ```
 
-</div>[Please feel free to read more and download it.](https://sites.google.com/site/stevedunns/codeformatterforwindowslivewriter)
+[Please feel free to read more and download it.](https://sites.google.com/site/stevedunns/codeformatterforwindowslivewriter)
