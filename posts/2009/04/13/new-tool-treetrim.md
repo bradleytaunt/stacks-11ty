@@ -7,7 +7,6 @@ author: stevedunn
 excerpt: ''
 type: post
 id: 43
-thumbnail: /static/images/imported_from_wp/2009/04/hammer-5B5-5D.png
 tags:
     - Uncategorised
 tag: []

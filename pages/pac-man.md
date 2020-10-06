@@ -17,7 +17,7 @@ permalink: /pac-man/index.html
 
 My name's Steve and I'm addicted to Pac-Man.  Well, addicted to writing clones of it as an exercise for new languages or techniques.
 
-I wrote about the internals of it [here](/posts/pacman-dissected.html)
+I wrote about the internals of it [here](/posts/2017/08/03/pacman-dissected)
 
 ### Blazor
 
