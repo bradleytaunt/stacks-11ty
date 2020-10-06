@@ -1,12 +1,26 @@
 ---
-title: Another Example blog post
-summary: A post showcasing all styling for article elements
-date: 2018-11-25
+layout: layouts/page.njk
+title: Pac-Man
+description: An example page
 tags:
-  - CSS
+  - nav
+navtitle: Pac-Man
+date: 2020-10-06
+permalink: /pac-man/index.html
 ---
 
-## An h2 header
+## My obsession with Pac-Man
+
+My name's Steve and I'm addicted to Pac-Man.  Well, addicted to writing clones of it to exercise is new languages or techniques.
+
+### Blazor
+
+Here's a version in Blazor
+
+
+### TypeScript
+
+Here's a version in TypeScript
 
 Paragraphs are separated by a blank line.
 
