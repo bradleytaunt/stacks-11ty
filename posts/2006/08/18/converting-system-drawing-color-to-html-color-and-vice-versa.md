@@ -27,11 +27,11 @@ This is something I need very rarely. So rare in fact that in-between uses it is
 To convert a .NET Color object to an HTML RGB or named color, use
 
 ```
-<span>string</span> colorAsString = ColorTranslator.ToHtml( _backgroundColor ) ;
+string colorAsString = ColorTranslator.ToHtml( _backgroundColor ) ;
 ```
 
 and vice-versa
 
 ```
-Color c= ColorTranslator.FromHtml( <span>@"#RRGGBB"</span> ) ;
+Color c = ColorTranslator.FromHtml( @"#RRGGBB" ) ;
 ```
