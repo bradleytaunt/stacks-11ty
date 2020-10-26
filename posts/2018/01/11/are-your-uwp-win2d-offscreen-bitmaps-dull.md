@@ -43,7 +43,9 @@ I spent quite some time trying to fix this – thinking it was some nuance of Wi
 
 Here’s the relevant bit of the drawing code:
 
-<div class="oembed-gist"><script src="https://gist.github.com/SteveDunn/a87d72e0180bf5dd4222ed26d01b7e86.js"></script><noscript>View the code on [Gist](https://gist.github.com/SteveDunn/a87d72e0180bf5dd4222ed26d01b7e86).</noscript></div>Even though I know how tolerant the StackOverflow community is (`</sarcasm>`), for completeness and to show that I did my homework before asking, I tried the same drawing (`DrawImage`) with multiple overloads and included a screen-shot for each.
+<div class="oembed-gist"><script src="https://gist.github.com/SteveDunn/a87d72e0180bf5dd4222ed26d01b7e86.js"></script><noscript>View the code on [Gist](https://gist.github.com/SteveDunn/a87d72e0180bf5dd4222ed26d01b7e86).</noscript></div>
+
+Even though I know how tolerant the StackOverflow community is (`</sarcasm>`), for completeness and to show that I did my homework before asking, I tried the same drawing (`DrawImage`) with multiple overloads and included a screen-shot for each.
 
 So, I’m about 45 minutes into writing the StackOverflow question, and then it struck me:
 
@@ -59,7 +61,9 @@ Essentially, the offscreen canvas created in **step 2** has its instructions **d
 
 Here’s the corrected code:
 
-<div class="oembed-gist"><script src="https://gist.github.com/SteveDunn/5247b41cad036cb05885d5a3df0f5f49.js"></script><noscript>View the code on [Gist](https://gist.github.com/SteveDunn/5247b41cad036cb05885d5a3df0f5f49).</noscript></div>… which produces this beautiful output:
+<div class="oembed-gist"><script src="https://gist.github.com/SteveDunn/5247b41cad036cb05885d5a3df0f5f49.js"></script><noscript>View the code on [Gist](https://gist.github.com/SteveDunn/5247b41cad036cb05885d5a3df0f5f49).</noscript></div>
+
+… which produces this beautiful output:
 
 ![](/static/images/imported_from_wp/2018/01/img_5a575c851b064.png)
 

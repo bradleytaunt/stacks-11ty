@@ -41,7 +41,9 @@ The benefits of immutability are often overlooked especially by those who have o
 
 Here’s a method that takes an `in` parameter:
 
-<div class="oembed-gist"><script src="https://gist.github.com/anonymous/8fc7c6769e76e4edd0f1aaf8ac70bb37.js"></script><noscript>View the code on [Gist](https://gist.github.com/anonymous/8fc7c6769e76e4edd0f1aaf8ac70bb37).</noscript></div>It says that the `DoStuffTo `method takes a `Thing `and **cannot modify it**. If you try, you’ll get:
+<div class="oembed-gist"><script src="https://gist.github.com/anonymous/8fc7c6769e76e4edd0f1aaf8ac70bb37.js"></script><noscript>View the code on [Gist](https://gist.github.com/anonymous/8fc7c6769e76e4edd0f1aaf8ac70bb37).</noscript></div>
+
+It says that the `DoStuffTo `method takes a `Thing `and **cannot modify it**. If you try, you’ll get:
 
 ![](/static/images/imported_from_wp/2017/12/img_5a3197d6498aa.png)
 
@@ -49,15 +51,21 @@ This is fantastic! Immutable parameters; I know that my method is immutable and 
 
 The example above clearly violates the *intent* that you wanted a readonly variable, but what about situations where it **isn’t clear** that doing something mutates the object? What about this?
 
-<div class="oembed-gist"><script src="https://gist.github.com/anonymous/a61012dd12882d3672ce27d92b7d1167.js"></script><noscript>View the code on [Gist](https://gist.github.com/anonymous/a61012dd12882d3672ce27d92b7d1167).</noscript></div>This is fine. **No complaints from the compiler.** You might naturally think that `Conculate` **doesn’t mutate the instance…**
+<div class="oembed-gist"><script src="https://gist.github.com/anonymous/a61012dd12882d3672ce27d92b7d1167.js"></script><noscript>View the code on [Gist](https://gist.github.com/anonymous/a61012dd12882d3672ce27d92b7d1167).</noscript></div>
+
+This is fine. **No complaints from the compiler.** You might naturally think that `Conculate` **doesn’t mutate the instance…**  
 
 Let’s look at the implementation:
 
-<div class="oembed-gist"><script src="https://gist.github.com/anonymous/45b8c7cda12eabe884460fbf9d0913a8.js"></script><noscript>View the code on [Gist](https://gist.github.com/anonymous/45b8c7cda12eabe884460fbf9d0913a8).</noscript></div>Wait! `Conculate` does mutate state?! How could it, our parameter is `readonly`! No compiler errors like when we set the property… This is because the compiler **doesn’t know** that the method mutates state.
+<div class="oembed-gist"><script src="https://gist.github.com/anonymous/45b8c7cda12eabe884460fbf9d0913a8.js"></script><noscript>View the code on [Gist](https://gist.github.com/anonymous/45b8c7cda12eabe884460fbf9d0913a8).</noscript></div>
+
+Wait! `Conculate` does mutate state?! How could it, our parameter is `readonly`! No compiler errors like when we set the property… This is because the compiler **doesn’t know** that the method mutates state.
 
 But all is not what it seems. Let’s run the following and see what the output is:
 
-<div class="oembed-gist"><script src="https://gist.github.com/anonymous/9cb909a469d5530af058490a87d3405b.js"></script><noscript>View the code on [Gist](https://gist.github.com/anonymous/9cb909a469d5530af058490a87d3405b).</noscript></div>… here’s the output…
+<div class="oembed-gist"><script src="https://gist.github.com/anonymous/9cb909a469d5530af058490a87d3405b.js"></script><noscript>View the code on [Gist](https://gist.github.com/anonymous/9cb909a469d5530af058490a87d3405b).</noscript></div>
+
+… here’s the output…
 
 ![](/static/images/imported_from_wp/2017/12/img_5a343a2d072d8.png)
 
@@ -90,7 +98,9 @@ Here’s another excerpt from the documentation**:**![](/static/images/imported_
 
 Here’s a (contrived) example:
 
-<div class="oembed-gist"><script src="https://gist.github.com/anonymous/05dc32470bc1dc7a88073754ed0b507e.js"></script><noscript>View the code on [Gist](https://gist.github.com/anonymous/05dc32470bc1dc7a88073754ed0b507e).</noscript></div>Here, we start off a task to do something with a `Thing`. We wait 1 second and set the reference to `null`. Assuming the user hasn’t pressed Enter yet, a `NullReferenceException` will happen when they do. This is because we’re passing a *reference to a reference* and then setting the reference to `null`.
+<div class="oembed-gist"><script src="https://gist.github.com/anonymous/05dc32470bc1dc7a88073754ed0b507e.js"></script><noscript>View the code on [Gist](https://gist.github.com/anonymous/05dc32470bc1dc7a88073754ed0b507e).</noscript></div>
+
+Here, we start off a task to do something with a `Thing`. We wait 1 second and set the reference to `null`. Assuming the user hasn’t pressed Enter yet, a `NullReferenceException` will happen when they do. This is because we’re passing a *reference to a reference* and then setting the reference to `null`.
 
 I can only imagine all the subtle bugs that this will cause if spread throughout a codebase.
 
