@@ -7,7 +7,6 @@ author: stevedunn
 excerpt: ''
 type: post
 id: 36
-thumbnail: /static/images/imported_from_wp/2010/02/toolbox_thumb6.jpg
 tags:
     - tool
     - 'visual studio'
@@ -24,6 +23,9 @@ blogger_internal:
 dsq_thread_id:
     - '5950316269'
 ---
+![](/static/images/imported_from_wp/2010/02/toolbox_thumb6.jpg)
+
+
 ***Update: the source is now on [GitHub](https://github.com/SteveDunn/SwitchVsVersion)***
 
 Visual Studio 2010 is almost here. Visual Studio 2010 (the release candidate) **is here**.

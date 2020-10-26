@@ -7,7 +7,6 @@ author: stevedunn
 excerpt: ''
 type: post
 id: 37
-thumbnail: /static/images/imported_from_wp/2010/01/image_thumb-5B15-5D.png
 tags:
     - open-source
     - tool
@@ -24,6 +23,9 @@ blogger_internal:
 dsq_thread_id:
     - '6238615289'
 ---
+![](/static/images/imported_from_wp/2010/01/image_thumb-5B15-5D.png)
+
+
 This plug-in formats and highlights code. Version 2.0.0.3 can be [downloaded here](http://sites.google.com/a/dunnhq.com/steve/CodeFormatterPlugin2.0.0.3.zip?attredirects=0). Keep reading for more info.
 
 As well as a few bug fixes, this release includes the following features:

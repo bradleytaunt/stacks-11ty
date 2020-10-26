@@ -7,7 +7,6 @@ author: stevedunn
 excerpt: ''
 type: post
 id: 171
-thumbnail: /static/images/imported_from_wp/2017/07/pic6.png
 tags:
     - Uncategorised
 tag:
@@ -19,6 +18,8 @@ post_format: []
 dsq_thread_id:
     - '5986048606'
 ---
+![](/static/images/imported_from_wp/2017/07/pic6.png)
+
 Want to learn a new programming language? Tired of the usual Line-of-Business tutorials? Then write a game! I’ve always said that the best way to learn a new language is to write a game with it. You’ll come across many problems when writing a game that you just won’t experience by writing an app that selects product items from a customer’s order.
 
 That’s what I did recently when I wanted to learn TypeScript. I decided to write a [web-based version of PacMan.](http://pacman.backroomsoftware.com/) This post describes a bit about my goals. There’s nothing technical here; I may, at some point, describe the internals of the game and share the code.
@@ -29,12 +30,17 @@ My goals were to learn TypeScript and end up with a game that looked and played 
 
 Here’s some comparison screenshots:
 
-Arcade (Mame)![](/static/images/imported_from_wp/2017/07/pic4.png)
+Arcade (Mame)
 
-TypeScript![](/static/images/imported_from_wp/2017/07/pic3.png)
+![](/static/images/imported_from_wp/2017/07/pic4.png)
+
+TypeScript
+![](/static/images/imported_from_wp/2017/07/pic3.png)
 
 Arcade  
-![](/static/images/imported_from_wp/2017/07/pic2.png)TypeScript  
+![](/static/images/imported_from_wp/2017/07/pic2.png)
+
+TypeScript  
 ![](/static/images/imported_from_wp/2017/07/pic1.png)
 
 Whilst learning the language, I didn’t want the overhead of also learning a game framework, so I chose to use the [HTML canvas](https://www.w3schools.com/graphics/canvas_intro.asp) directly. This worked out well as the canvas is very simple to use.

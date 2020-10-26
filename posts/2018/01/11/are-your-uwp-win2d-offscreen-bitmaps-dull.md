@@ -6,7 +6,6 @@ author: stevedunn
 excerpt: ''
 type: post
 id: 224
-thumbnail: /static/images/imported_from_wp/2018/01/featured.png
 tags:
     - .net
     - 'c#'

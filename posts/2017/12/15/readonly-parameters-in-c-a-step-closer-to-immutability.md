@@ -7,7 +7,6 @@ author: stevedunn
 excerpt: ''
 type: post
 id: 210
-thumbnail: /static/images/imported_from_wp/2017/12/notouch.jpg
 tags:
     - .net
     - 'c#'
@@ -71,7 +70,9 @@ But all is not what it seems. Let’s run the following and see what the output 
 
 We called `Conculate`, which we know mutates the state (by setting `Id `to `42`), but it turns out that a **copy was made** and the `ID `was set **on that copy**.
 
-Here’s an excerpt from the [Microsoft page](https://docs.microsoft.com/en-us/dotnet/csharp/reference-semantics-with-value-types) on reference semantics with value types:![](/static/images/imported_from_wp/2017/12/img_5a3199e3f373f.png)
+Here’s an excerpt from the [Microsoft page](https://docs.microsoft.com/en-us/dotnet/csharp/reference-semantics-with-value-types) on reference semantics with value types:
+
+![](/static/images/imported_from_wp/2017/12/img_5a3199e3f373f.png)
 
 So, it turns out that `readonly` parameters **aren’t as powerful as C++ `const` parameters.** They are, technically, read-only (you can’t mutate them), but they’re not `const` as in C++ `const`.
 
@@ -92,7 +93,9 @@ Anyway, `in parameters` can be either `struct` or `class`. Here’s what happens
 
 **Oh the disappointment!**
 
-Here’s another excerpt from the documentation**:**![](/static/images/imported_from_wp/2017/12/img_5a319bd891a2e.png)
+Here’s another excerpt from the documentation**:**
+
+![](/static/images/imported_from_wp/2017/12/img_5a319bd891a2e.png)
 
 ‘*The benefits are minimal*‘. I personally think *minimal* is being generous. I would’ve use the word **Dangerous.** If `Thing` is a `class` rather than a `struct`, then what is passed is a *reference to a reference*. This means that the value that the method is dealing with **can be changed to point to something else at any time**! (*even from outside of that method*)
 

@@ -30,11 +30,14 @@ Normally, when you display values in the Visual Studio debugger, you get formatt
 
  [![](https://2.bp.blogspot.com/_bIhihWOyLpw/SPyBjzDc4dI/AAAAAAAAARk/QemrhnrSNIU/s400/hw2.png)](https://2.bp.blogspot.com/_bIhihWOyLpw/SPyBjzDc4dI/AAAAAAAAARk/QemrhnrSNIU/s1600-h/hw2.png)
 
-This is useful in itself, but it really becomes invaluable if you want to show some XML. With the magical <span style="font-style: italic; font-weight: bold">,nq</span> switch, the following code: [![](https://2.bp.blogspot.com/_bIhihWOyLpw/SPyDNmmpDSI/AAAAAAAAAR0/Bbide7cMp8E/s400/x1.png)](https://2.bp.blogspot.com/_bIhihWOyLpw/SPyDNmmpDSI/AAAAAAAAAR0/Bbide7cMp8E/s1600-h/x1.png)
+This is useful in itself, but it really becomes invaluable if you want to show some XML. With the magical <span style="font-style: italic; font-weight: bold">,nq</span> switch, the following code: 
+[![](https://2.bp.blogspot.com/_bIhihWOyLpw/SPyDNmmpDSI/AAAAAAAAAR0/Bbide7cMp8E/s400/x1.png)](https://2.bp.blogspot.com/_bIhihWOyLpw/SPyDNmmpDSI/AAAAAAAAAR0/Bbide7cMp8E/s1600-h/x1.png)
 
-produces the following output in the immediate window: [![](https://4.bp.blogspot.com/_bIhihWOyLpw/SPyExCPdxHI/AAAAAAAAASM/Hk0LOH8w1yE/s400/x2.png)](https://4.bp.blogspot.com/_bIhihWOyLpw/SPyExCPdxHI/AAAAAAAAASM/Hk0LOH8w1yE/s1600-h/x2.png)
+produces the following output in the immediate window: 
+[![](https://4.bp.blogspot.com/_bIhihWOyLpw/SPyExCPdxHI/AAAAAAAAASM/Hk0LOH8w1yE/s400/x2.png)](https://4.bp.blogspot.com/_bIhihWOyLpw/SPyExCPdxHI/AAAAAAAAASM/Hk0LOH8w1yE/s1600-h/x2.png)
 
-Pretty useless, but if you add <span style="font-style: italic; font-weight: bold">,nq</span>, you get: [![](https://4.bp.blogspot.com/_bIhihWOyLpw/SPyDvZxIR8I/AAAAAAAAASE/A_QbIwxvBmg/s400/x3.png)](https://4.bp.blogspot.com/_bIhihWOyLpw/SPyDvZxIR8I/AAAAAAAAASE/A_QbIwxvBmg/s1600-h/x3.png)
+Pretty useless, but if you add <span style="font-style: italic; font-weight: bold">,nq</span>, you get: 
+[![](https://4.bp.blogspot.com/_bIhihWOyLpw/SPyDvZxIR8I/AAAAAAAAASE/A_QbIwxvBmg/s400/x3.png)](https://4.bp.blogspot.com/_bIhihWOyLpw/SPyDvZxIR8I/AAAAAAAAASE/A_QbIwxvBmg/s1600-h/x3.png)
 
 Much nicer.
 

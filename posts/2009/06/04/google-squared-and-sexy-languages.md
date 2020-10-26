@@ -7,7 +7,6 @@ author: stevedunn
 excerpt: ''
 type: post
 id: 40
-thumbnail: /static/images/imported_from_wp/2009/06/mk_thumb-5B3-5D.jpg
 tags:
     - Uncategorised
 tag: []

@@ -7,7 +7,6 @@ author: stevedunn
 excerpt: ''
 type: post
 id: 45
-thumbnail: /static/images/imported_from_wp/2009/03/image_thumb-5B2-5D.png
 tags:
     - Uncategorised
 tag: []
@@ -23,6 +22,8 @@ blogger_internal:
 dsq_thread_id:
     - '7241854336'
 ---
+![](/static/images/imported_from_wp/2009/03/image_thumb-5B2-5D.png)
+
 Version 2.0.0.1 of the [Code Formatter Plugin](https://sites.google.com/site/stevedunns/codeformatterforwindowslivewriter) is now available.
 
 New in this version:
