@@ -17,6 +17,8 @@ post_format: []
 dsq_thread_id:
     - '6351699275'
 ---
+![](/static/images/imported_from_wp/2017/12/notouch.jpg)
+
 I’ve been working with C# for many years now and the new additions to the language are very exciting. They’re focused on immutability. Well, actually, the [Microsoft documentation](https://docs.microsoft.com/en-us/dotnet/csharp/reference-semantics-with-value-types) seem to suggest they’re more focused on Performance, but they go hand-in-hand; the less you can modify, the faster things are.
 
 The benefits of immutability are often overlooked especially by those who have only experienced programming in C#. But coming from a C++ background, I long for the immutability that C++ has. For example, In C++, you can:
@@ -95,4 +97,4 @@ I can only imagine all the subtle bugs that this will cause if spread throughout
 ReSharper to the rescue?
 ------------------------
 
-I don’t even know if it’s possible, but I’d have liked the compiler to disallow `in` parameters that **aren’t value types**. I’m sure the ReSharper team are working on a new code-inspection to warn when passing `in <span style="text-decoration: underline;">references</span>`.
+I don’t even know if it’s possible, but I’d have liked the compiler to disallow `in` parameters that **aren’t value types**. I’m sure the ReSharper team are working on a new code-inspection to warn when passing `in` _references_.
