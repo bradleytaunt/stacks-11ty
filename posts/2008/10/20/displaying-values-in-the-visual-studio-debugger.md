@@ -22,7 +22,7 @@ blogger_internal:
 dsq_thread_id:
     - '6376326759'
 ---
-Normally, when you display values in the Visual Studio debugger, you get formatting (quotes, tabs etc.) included. For instance, if you’ve got <span style="font-style: italic">string s = "Hello\[tab\]World";</span> then hovering over s in the debugger displays "HellotWorld". If you wanted to copy a value value to the clipboard (maybe because you landed on an exception and you want to send the error to <strike>the idiot that caused it</strike> your fellow colleague), you’d probably right click on the value and select ‘copy value’. This copies the value to the clipboard. Another way is to use the <span style="font-weight: bold">immediate window</span>. Using the example above, typing ‘s’ in the immediate window would produce:
+Normally, when you display values in the Visual Studio debugger, you get formatting (quotes, tabs etc.) included. For instance, if you’ve got `string s = "Hello\[tab\]World";`</span>` then hovering over s in the debugger displays "Hello\tWorld". If you wanted to copy a value value to the clipboard (maybe because you landed on an exception and you want to send the error to <strike>the idiot that caused it</strike> your fellow colleague), you’d probably right click on the value and select ‘copy value’. This copies the value to the clipboard. Another way is to use the <span style="font-weight: bold">immediate window</span>. Using the example above, typing `s` in the immediate window would produce:
 
  [![](https://2.bp.blogspot.com/_bIhihWOyLpw/SPyBkOfTnhI/AAAAAAAAARs/ycCmtOKDvtQ/s400/hw1.png)](https://2.bp.blogspot.com/_bIhihWOyLpw/SPyBkOfTnhI/AAAAAAAAARs/ycCmtOKDvtQ/s1600-h/hw1.png)
 
@@ -41,6 +41,4 @@ Pretty useless, but if you add <span style="font-style: italic; font-weight: bol
 
 Much nicer.
 
-<span style="font-style: italic; font-weight: bold">nq</span> stands for <span style="font-style: italic; font-weight: bold">nice’n quick, </span>because it doesn’t waste time writing quotes.
-
-Probably.
+<span style="font-style: italic; font-weight: bold">nq</span> stands for <span style="font-style: italic; font-weight: bold">nice’n quick, </span>because it doesn’t waste time writing quotes. Probably.
