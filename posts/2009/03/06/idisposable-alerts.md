@@ -22,7 +22,7 @@ blogger_internal:
 dsq_thread_id:
     - '7112514885'
 ---
-Types that implement IDisposable usually do so for a reason. They probably consume resources that should be released as early as possible.
+Types that implement `IDisposable` usually do so for a reason. They probably consume resources that should be released as early as possible.
 
 In a recent project, I came across a very neat idea. In the destructor/finalizer/finaliser of your IDisposable type, do something to alert the consumer that you’re being collected by the Garbage Collector and hence you haven’t been disposed of correctly.
 
@@ -32,7 +32,7 @@ There’s two bits to this
 
 The constructor:
 
-```
+``` csharp
 public MyResourceHungryType( )
 {
   _stackTrace = new StackTrace( ) ;
@@ -41,7 +41,7 @@ public MyResourceHungryType( )
 
 The finalizer:
 
-```
+``` csharp
 ~MyResourceHungryType( )
 {
   Debug.WriteLine( _stackTrace.ToString( ) ) ;
@@ -50,7 +50,7 @@ The finalizer:
 
 Then, if the finalizer is ever called, you’ll get a call stack printed up to the point where you created this type – something like:
 
-```
+``` csharp
 at Namespace.MyResourceHungryType..ctor()
    at Namespace.MyType.DoSomething()
    at SomeNamespace.SomeMethod()
