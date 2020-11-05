@@ -32,7 +32,7 @@ There’s two bits to this
 
 The constructor:
 
-``` csharp
+``` cs
 public MyResourceHungryType( )
 {
   _stackTrace = new StackTrace( ) ;
@@ -41,7 +41,7 @@ public MyResourceHungryType( )
 
 The finalizer:
 
-``` csharp
+``` cs
 ~MyResourceHungryType( )
 {
   Debug.WriteLine( _stackTrace.ToString( ) ) ;
@@ -50,7 +50,7 @@ The finalizer:
 
 Then, if the finalizer is ever called, you’ll get a call stack printed up to the point where you created this type – something like:
 
-``` csharp
+``` cs
 at Namespace.MyResourceHungryType..ctor()
    at Namespace.MyType.DoSomething()
    at SomeNamespace.SomeMethod()
