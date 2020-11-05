@@ -47,8 +47,8 @@ Build and Run
 
 The following should download and run the game (assuming you’ve got git and npm installed):
 
-```
-<pre class="lang:sh decode:true ">git clone https://github.com/SteveDunn/Pacman.git
+``` sh
+git clone https://github.com/SteveDunn/Pacman.git
 cd pacman
 npm install
 tsc
@@ -64,8 +64,8 @@ When the page loads, it loads all of the sound files and then all of js files. r
 
 The main game is held within a div named `gameDiv`. Within that div is a `canvas`:
 
-```
-<pre class="lang:xhtml decode:true"><!--ideal canvas size = 672/944 (0.711 aspect ratio) (or 224 x 314) -->
+``` html
+<!--ideal canvas size = 672/944 (0.711 aspect ratio) (or 224 x 314) -->
 <div id="gameDiv" style="opacity: 0.75;">
     <canvas id="gameContainer" width="672" height="944">
         Your browser does not support the HTML5 canvas tag.
@@ -75,8 +75,8 @@ The main game is held within a div named `gameDiv`. Within that div is a `canvas
 
 The next bit then instantiates the `Engine`:
 
-```
-<pre class="lang:xhtml mark:4 decode:true">require(["js/Engine", "js/GameStorage"],
+``` js
+require(["js/Engine", "js/GameStorage"],
 function (pacManModule) {
     loadState.scriptsFinishedLoading();
     var engine = new pacManModule.Engine();
@@ -106,8 +106,8 @@ Game Flow
 
 Everything in the game is an `Act`:
 
-```
-<pre class="lang:js decode:true">import { Canvas, GameContext } from "../Core/_exports";
+``` js
+import { Canvas, GameContext } from "../Core/_exports";
 
 import { ActUpdateResult } from "./ActUpdateResult";
 
@@ -128,8 +128,8 @@ Here are the different `Act`s:
 
 The welcome screen (or the ‘attract screen’ as they call it in arcade circles) is called the `AttractAct`. You can see it being set as the main Act in MainWindow.ts:
 
-```
-<pre class="lang:js decode:true">MainWindow.currentAct = new AttractAct();
+``` js
+MainWindow.currentAct = new AttractAct();
 
 // POINTER: You can change the starting Act by using something like:
 //MainWindow.currentAct = new TornGhostChaseAct(new AttractAct());
@@ -143,8 +143,8 @@ Graphics
 
 The graphics are drawn onto an HTML `Canvas`. A [sprite-sheet](https://gamedevelopment.tutsplus.com/tutorials/an-introduction-to-spritesheet-animation--gamedev-13099) is loaded in `index.html:`
 
-```
-<pre class="lang:xhtml decode:true"><img hidden id="spritesheet" src="img/spritesheet.png" />
+``` html
+<img hidden id="spritesheet" src="img/spritesheet.png" />
 ```
 
 It looks like this:
@@ -153,8 +153,8 @@ It looks like this:
 
 It contains all of the graphics in one image. The sprites then reference a particular rectangle of this image and are drawn on the canvas. All sprites derive from `Sprite`:
 
-```
-<pre class="lang:js decode:true">export abstract class Sprite {
+``` js
+export abstract class Sprite {
 
     loadContent(): void { // nothing 
     };
@@ -191,8 +191,8 @@ The maze (as shown above) is drawn to the canvas every frame. The ‘pills’ (n
 
 The maze is broken down into ’tiles’ that are 8×8 pixels in size. Sprite positions are converted to the associate ’tile’. The game then refers to a lookup that says what’s in the current tile. The lookup looks like this:
 
-```
-<pre class="lang:js decode:true">private static readonly map: string[] = [
+``` js
+private static readonly map: string[] = [
         // 0,0                     29,0
         "                             ",
         " oooooooooooo  oooooooooooo  ",
@@ -244,8 +244,8 @@ Ghosts
 
 Ghosts move around the maze and either chase pacman or run away from him. Here’s the various states of a ghost:
 
-```
-<pre class="lang:js decode:true">export enum GhostState {
+``` js
+export enum GhostState {
     // heading towards pacman or their home corner (scatter)
     Normal,
 
@@ -259,8 +259,8 @@ Ghosts move around the maze and either chase pacman or run away from him. Here�
 
 The `state` of a ghost can differ from the ‘movement mode’ of a ghost:
 
-```
-<pre class="lang:default decode:true">export enum GhostMovementMode {
+``` csharp
+export enum GhostMovementMode {
     Undecided,
     // the ghost is chasing pacman
     Chase,
@@ -291,8 +291,8 @@ Timing and Difficulty
 
 Getting the difficulty to match that of the arcade game was tricky. There are many variables used throughout each level. These variables are described in the type `LevelProps`:
 
-```
-<pre class="lang:js decode:true ">export class LevelProps {
+``` js
+export class LevelProps {
     constructor(
         public readonly introCutScene: IntroCutScene,           
 
