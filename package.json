@@ -22,16 +22,16 @@
   },
   "homepage": "https://stacks11ty.netlify.com/",
   "devDependencies": {
-    "@11ty/eleventy": "^0.5.0",
-    "luxon": "^1.0.0",
-    "markdown-it": "^8.4.1",
-    "markdown-it-anchor": "^4.0.0"
+    "@11ty/eleventy": "^0.11.1",
+    "luxon": "^1.25.0",
+    "markdown-it": "^12.0.2",
+    "markdown-it-anchor": "^6.0.0"
   },
   "dependencies": {
-    "clean-css": "^4.1.11",
-    "feather-icons": "^4.7.3",
-    "html-minifier": "^3.5.19",
-    "local-web-server": "^2.6.0",
-    "uglify-js": "^3.4.5"
+    "clean-css": "^4.2.3",
+    "feather-icons": "^4.28.0",
+    "html-minifier": "^4.0.0",
+    "local-web-server": "^4.2.1",
+    "uglify-js": "^3.11.5"
   }
 }
